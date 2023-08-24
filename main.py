@@ -28,7 +28,7 @@ while is_game_on:
     time.sleep(0.1)
     snake.move()
 
-    if snake.head.distance(food) < 18:
+    if snake.head.distance(food) < 19:
         food.new_position()
         snake.extend()
         score_board.gain_score()
